@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* .btn{
+    @apply transform scale-x-0;
+}
+ .btn:hover{
+     @apply transform scale-x-100;
+ } */
+
+.fa-star{
+font-size: 13px;
+color: rgb(211, 188, 56);
+}
+body{
+
+scroll-behavior: smooth;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* 
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 10vh;
+}
+.drop-menu{
+    position: relative;
+}
+.drop-menu ul{
+    position: absolute;
+    background-color: rgb(226, 226, 226);
+width: 200px;
+height:  max-content;
+margin-top: 10px;
+display: flex;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+overflow: hidden;
+opacity: 0;
+pointer-events: none;
+transform: translateY(10px);
+transition: all 250ms ease;
+}
+.drop-menu::after{
+    content: '';
+    background-color: rgb(226, 226, 226);
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    bottom: -16px;
+    left: 10px;
+    opacity: 0;
+    pointer-events: none;
+
+    transform: rotate(45deg);
+}
+.drop-menu button:focus + ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+}
+.drop-menu ul li{
+    list-style: none;
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+font-size: 15px;
+text-align: center;
+width: 100%;
+
+font-weight: 500px;
+}
+.drop-menu ul li:hover{
+    background-color: violet;
+}
+.drop-menu ul li a{
+    text-decoration: none;
+    font-weight: 500px;
+}
+.drop-menu button,.dropdown button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* mega */
+/* .drop-mega{
+  
+}
+.mega-menu{
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+    left: 0;
+    margin-top: 7px;
+    right: 0;
+    border-radius: 6px;
+    justify-content: center;
+    padding: 35px 10px;
+    box-shadow: 10px 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ;
+}
+.drop-mega button:focus + .mega-menu{
+    opacity: 1;
+    pointer-events: all;
+}
+.mega-menu .left-col{
+    width: 270px;
+}
+.mega-menu .left-col ul li{
+    list-style: none;
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.mega-menu .left-col a{
+    align-items: center;
+   
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.mega-menu .right-col{
+    width: 450px;
+}
+.mega-menu .right-col img{
+ width: 100%;
+}  */
